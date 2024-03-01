@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+.banner {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Adicionado para posicionar os botões relativamente ao banner */
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  
+  .navbar-button a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:#f9f9f9;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .categories {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories li {
+    margin-bottom: 10px;
+  }
+  
+  .advertisement {
+    float: left;
+    width: 20%;
+  }
+  
+  .advertisement img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cards {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
